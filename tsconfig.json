@@ -16,6 +16,23 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "observation": [
+        "dist/observation"
+      ],
+      "project": [
+        "dist/project"
+      ],
+      "projects": [
+        "dist/projects"
+      ],
+      "self-creation-portal-dock": [
+        "dist/self-creation-portal-dock"
+      ],
+      "shared-features": [
+        "dist/shared-features"
+      ]
+    },
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
