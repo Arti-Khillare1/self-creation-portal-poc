@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "build-web-component": "npm run build project && ng build web-component  --output-hashing none && node ./build-wc.js"
   },
   "private": true,
   "dependencies": {
@@ -15,12 +16,16 @@
     "@angular/common": "^15.0.0",
     "@angular/compiler": "^15.0.0",
     "@angular/core": "^15.0.0",
+    "@angular/elements": "^17.0.9",
     "@angular/forms": "^15.0.0",
     "@angular/platform-browser": "^15.0.0",
     "@angular/platform-browser-dynamic": "^15.0.0",
     "@angular/router": "^15.0.0",
+    "concat": "^1.0.3",
+    "fs-extra": "^11.2.0",
     "project": "file:dist/project",
     "rxjs": "~7.5.0",
+    "save-dev": "0.0.1-security",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },

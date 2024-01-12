@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^15.0.0",
-    "@angular/core": "^15.0.0"
+    "@angular/core": "^15.0.0",
+    "shared-features": "file:../../dist/shared-features"
   },
   "dependencies": {
-    "shared-features": "file:../../dist/shared-features",
     "tslib": "^2.3.0"
   }
 }
